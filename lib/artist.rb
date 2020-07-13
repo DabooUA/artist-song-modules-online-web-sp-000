@@ -7,7 +7,7 @@ class Artist
 
   extend Memorable::ClassMethods
   include Memorable::InstanceMethods
-  #sextend Memorable
+  #extend Memorable
   extend Findable
   include Paramable
 
